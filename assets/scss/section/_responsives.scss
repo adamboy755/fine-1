@@ -1,0 +1,69 @@
+@media screen and (max-width: 920px){
+  .header_nav{
+    display: none;
+  }
+  .main2_blocks{
+    overflow-x: scroll;
+    height: 250px
+  }
+
+  .header-buttonres{
+    display: block;
+    // padding-left: 400px;
+  }
+  .header_button{
+    display: none;
+  }
+  .main1_right_traverller{
+    display: none;
+  }
+
+  .main1_description{
+    width: 60%;
+  }
+  .footer-btm1{
+    padding-left: 20px;
+  }
+  .main4_lines{
+    display: none;
+  }
+  .main4_title{
+    padding-left: 140px;
+  }
+  .main4_message{
+    display: none;
+  }
+  .footer-micro{
+    gap: 90px;
+  }
+  .footer-bottom{
+    gap: 100px;
+  }
+}
+@media screen and (max-width: 1110px){
+  .main2_blocks{
+    gap: 20px;
+  }
+  .main1_description{
+    width: 80%;
+    padding: 16px 10px;
+  }
+  .main3_blocks{
+    overflow-x: scroll;
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 800px){
+  .main3_subtitle{
+    font-size: 30px;
+  }
+  .main2_blocks{
+    overflow-x: scroll;
+    gap: 30px;
+  }
+
+}
+
+
+
+

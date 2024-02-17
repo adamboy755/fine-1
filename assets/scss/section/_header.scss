@@ -1,0 +1,87 @@
+.header{
+  
+
+  &_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 39px;
+  }
+  &-buttonres{
+    display: none;
+  }
+  &_link{
+    color: var(--1st, #212832);
+    font-family: Comfortaa;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 900;
+    padding-left: 50px;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+      color:rgb(203, 150, 50);
+    }
+  }
+  &_button{
+    width: 102px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius:5px;
+    font-family: Comfortaa;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 50px;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+      background-color: #FFF1DA;
+      border:#FFF1DA;
+    }
+  }
+  &_nav2{
+    display: flex;
+  }
+  &_icon{
+    margin-left: 5px;
+  }
+  &_img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+

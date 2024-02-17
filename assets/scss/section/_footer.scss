@@ -1,0 +1,56 @@
+.footer{
+  padding-top: 170px;
+  &-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-bigshit{
+    font-size: 44px;
+    font-family: Comfortaa;
+    font-weight: 600;
+  }
+  &-shits{
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  &-bottom{
+    display: flex;
+    padding-top: 20px;
+    gap: 210px;
+  }
+
+  &-btm1{
+    width: 207px;
+    font-family: sans-serif;
+    color: #5E6282;
+    font-size: 13px;
+  }
+  &-btm2{
+    width: 55px;
+    font-family: sans-serif;
+    line-height: 29px;
+    color: #5E6282;
+    font-size: 18px;
+  }
+  &-btm3{
+    width: 39px;
+    font-family: sans-serif;
+    line-height: 29px;
+    color: #5E6282;
+    font-size: 18px;
+  }
+  &-btm4{
+    width: 95px;
+    font-family: sans-serif;
+    line-height: 29px;
+    color: #5E6282;
+    font-size: 18px;
+  }
+  &-micro{
+    display: flex;
+    gap: 220px;
+  }
+}
